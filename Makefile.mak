@@ -1,7 +1,7 @@
 all: fulkerson dijkstra kruskal prim
 
 fulkerson: ./fulkerson/fulkerson.cpp
-    gpp ./fulkerson/fulkerson.cpp -o fulkerson
+    g++ ./fulkerson/fulkerson.cpp -o fulkerson
 
 dijkstra: ./Dijkstra/Dijkstra.c
     gcc ./Dijkstra/Dijkstra.c -o Dijkstra
